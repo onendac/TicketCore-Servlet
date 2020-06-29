@@ -1,0 +1,39 @@
+<html>
+<head>
+	<link rel="stylesheet" href="add-ticket-style.css">
+</head>
+   <body style="background-color:black">
+    <form action="/p02-ezshop-layered-arch-mysql-servlet-jsp/AddTicket">
+        <label for="conference" style="color:blue">Choose your Conference:</label>
+        <h4 style="color:blue">Select a conference in the drop-down list.</h4>
+        <select name="nba" id="nba">
+          <option value="west" >West</option>
+          <option value="east">East</option>
+        </select><br><br>
+         <label for="team" style="color:blue">Choose your Team:</label>
+        <select name="nba" id="nba">
+          <option value="Los Angeles Lakers">Lakers</option>
+          <option value="Los Angeles Clippers">Clippers</option>
+          <option value="Denver">Nuggets</option>
+          <option value="Utah">Jazz</option>
+          <option value="Oklahoma">Thunder</option>
+          <option value="Houston">Rockets</option>
+          <option value="Dallas">Mavericks</option>
+          <option value="Memphis ">Grizzlies</option>
+          <option value="west">--east--</option>
+          <option value="Milwaukee">Bucks</option>
+          <option value="Toronto ">Raptors</option>
+          <option value="Boston">Celtics</option>
+          <option value="Miami">Heat</option>
+          <option value="Indiana">Pacers</option>
+          <option value="Philadelphia">76ers</option>
+          <option value="Brooklyn">Nets</option>
+          <option value="Orlando">Magic</option>
+        </select><br><br>
+        </form>
+      <span style="color:blue">Ticket Price</span>  <input type="text"  name="price"/><br/><br/> 
+      <span style="color:blue">Ticket Quantity</span>  <input type="text"  name="quantity"/><br/><br/>
+      <hr>
+      <p style="color:blue">Total <span class="price" style="color:white"><b>$0</b></span></p>
+  </body>
+</html> 
